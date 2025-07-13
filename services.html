@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - DouaaHorse</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Douaa<span>Horse</span></div>
+            <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="about.html">À propos</a></li>
+                <li><a href="services.html" class="active">Services</a></li>
+                <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li>
+                    <div class="search-container">
+                        <form>
+                            <input type="text" placeholder="Rechercher...">
+                            <button type="submit" class="search-btn"><i class="fas fa-search"></i></button>
+                        </form>
+                    </div>
+                </li>
+            </ul>
+            <div class="burger">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <section class="breadcrumb">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Accueil</a></li>
+                <li>Services</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="services" class="services-section">
+        <div class="container">
+            <h2>Nos Services</h2>
+            <p class="section-subtitle">Découvrez tout ce que nous offrons pour vous et votre cheval</p>
+            
+            <div class="services-grid">
+                <div class="service-card" id="riding">
+                    <i class="fas fa-horse-head"></i>
+                    <h3>Équitation</h3>
+                    <p>Nous proposons des cours pour tous les niveaux, adaptés à chaque cavalier. Nos moniteurs diplômés vous accompagnent dans votre progression.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Cours particuliers ou en groupe</li>
+                        <li><i class="fas fa-check"></i> Baby-poney dès 4 ans</li>
+                        <li><i class="fas fa-check"></i> Préparation aux compétitions</li>
+                        <li><i class="fas fa-check"></i> Balades encadrées</li>
+                    </ul>
+                    <div class="price">À partir de 25€/heure</div>
+                </div>
+                
+                <div class="service-card" id="care">
+                    <i class="fas fa-horse"></i>
+                    <h3>Soins Équins</h3>
+                    <p>Notre centre dispose d'installations modernes pour le bien-être de votre cheval, avec un suivi vétérinaire régulier.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Pension complète ou partielle</li>
+                        <li><i class="fas fa-check"></i> Soins vétérinaires sur place</li>
+                        <li><i class="fas fa-check"></i> Maréchalerie professionnelle</li>
+                        <li><i class="fas fa-check"></i> Préparation physique</li>
+                    </ul>
+                    <div class="price">À partir de 350€/mois</div>
+                </div>
+                
+                <div class="service-card" id="training">
+                    <i class="fas fa-graduation-cap"></i>
+                    <h3>Formations</h3>
+                    <p>Formez-vous aux métiers du cheval avec nos programmes certifiés et notre équipe de professionnels expérimentés.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> BPJEPS équitation</li>
+                        <li><i class="fas fa-check"></i> Formation soigneur équin</li>
+                        <li><i class="fas fa-check"></i> Stages intensifs</li>
+                        <li><i class="fas fa-check"></i> Préparation aux diplômes</li>
+                    </ul>
+                    <div class="price">Nous consulter</div>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-campground"></i>
+                    <h3>Stages</h3>
+                    <p>Pendant les vacances scolaires, nous organisons des stages thématiques pour tous les âges et tous les niveaux.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Stages découverte</li>
+                        <li><i class="fas fa-check"></i> Perfectionnement technique</li>
+                        <li><i class="fas fa-check"></i> Randonnées équestres</li>
+                        <li><i class="fas fa-check"></i> Ateliers de soins</li>
+                    </ul>
+                    <div class="price">À partir de 150€/semaine</div>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-birthday-cake"></i>
+                    <h3>Événements</h3>
+                    <p>Organisez votre anniversaire, enterrement de vie de jeune fille/garçon ou tout autre événement autour du cheval.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Anniversaires enfants</li>
+                        <li><i class="fas fa-check"></i> Team building entreprises</li>
+                        <li><i class="fas fa-check"></i> Séances photo</li>
+                        <li><i class="fas fa-check"></i> Ateliers découverte</li>
+                    </ul>
+                    <div class="price">Sur devis</div>
+                </div>
+                
+                <div class="service-card">
+                    <i class="fas fa-shopping-basket"></i>
+                    <h3>Boutique</h3>
+                    <p>Notre boutique propose tout le matériel nécessaire pour vous et votre cheval, avec des conseils personnalisés.</p>
+                    <ul class="service-features">
+                        <li><i class="fas fa-check"></i> Équipement cavalier</li>
+                        <li><i class="fas fa-check"></i> Harnachement</li>
+                        <li><i class="fas fa-check"></i> Alimentation</li>
+                        <li><i class="fas fa-check"></i> Produits de soin</li>
+                    </ul>
+                    <div class="price">Ouvert à tous</div>
+                </div>
+            </div>
+            
+            <div class="pricing-info">
+                <h3>Tarifs et Réservations</h3>
+                <p>Pour plus d'informations sur nos tarifs ou pour réserver un de nos services, n'hésitez pas à nous contacter. Nous proposons des forfaits et des tarifs dégressifs pour les familles et les groupes.</p>
+                <div class="text-center" style="margin-top: 30px;">
+                    <a href="contact.html" class="btn">Nous contacter</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="testimonials" class="testimonials-section" style="background-color: var(--white);">
+        <div class="container">
+            <h2>Témoignages</h2>
+            <p class="section-subtitle">Ce que nos clients disent de nous</p>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Mon fils de 8 ans a trouvé sa passion grâce aux cours de baby-poney. Les moniteurs sont patients et compétents.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/33.jpg" alt="Marie L.">
+                        <div>
+                            <h4>Marie L.</h4>
+                            <p>Maman de Thomas</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Je mets mon cheval en pension depuis 2 ans et je suis ravie des soins qu'il reçoit. L'équipe est vraiment professionnelle.</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="Pierre D.">
+                        <div>
+                            <h4>Pierre D.</h4>
+                            <p>Propriétaire de Joker</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-content">
+                        <i class="fas fa-quote-left"></i>
+                        <p>Le stage d'été a permis à ma fille de progresser considérablement tout en s'amusant. À refaire sans hésiter !</p>
+                    </div>
+                    <div class="testimonial-author">
+                        <img src="https://randomuser.me/api/portraits/women/68.jpg" alt="Sophie T.">
+                        <div>
+                            <h4>Sophie T.</h4>
+                            <p>Maman de Clara</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <h3>DouaaHorse</h3>
+                    <p>La passion du cheval partagée avec vous depuis 2023. Rejoignez notre communauté équestre.</p>
+                </div>
+                <div class="footer-col">
+                    <h3>Liens rapides</h3>
+                    <ul>
+                        <li><a href="index.html">Accueil</a></li>
+                        <li><a href="about.html">À propos</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="gallery.html">Galerie</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h3>Newsletter</h3>
+                    <p>Abonnez-vous pour recevoir nos dernières actualités.</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="Votre email">
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 DouaaHorse. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
